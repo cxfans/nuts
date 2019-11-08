@@ -13,19 +13,18 @@
 
 ### Install via `go get`
 ```bash
-go get github.com/cxfans/nuts
+go get github.com/cxfans/nuts@v0.1.0
 ```
 
 ### Usage
 
 #### ✂️ Image Cropping
-Image                    | Result Image
------------------------------------|------------------------------------------
-![srcImage](imgs/1.jpg) | ![dstImage](crop/1.jpg)
-
 ```go
 err := CropImage("imgs/1.jpg", "crop/1.jpg",380, 640, 480, 240)
 ```
+Image                    | Result Image
+-----------------------------------|------------------------------------------
+![srcImage](imgs/1.jpg) | ![dstImage](crop/1.jpg)
 
 #### ✂️ 👀 Character Recognition
 ```go
@@ -41,4 +40,4 @@ Learn more [examples](examples).
 
 ### 🔵 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
