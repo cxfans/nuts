@@ -1,4 +1,4 @@
-# Pick up Nuts
+# Pick up Nuts 🌰
 
 > Package nuts implements ImageRead, ImageWrite, ImageCrop and Baidu OCR API for image cropping and character recognition.
 
@@ -9,7 +9,7 @@
 - 👀 Character Recognition
 
 
-## 🚀 Getting started
+## 🚀 Getting Started
 
 ### Install via `go get`
 ```bash
